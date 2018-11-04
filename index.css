@@ -1,0 +1,38 @@
+#sidenav{
+    text-align: center;
+    position:fixed;
+    top:0;
+    left:0;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 100%;
+    color: orange;
+    background-color: orange;
+}
+#div{
+    position: relative;
+    margin: 200px;
+}
+#div p input{
+    border-top:0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-color: blue
+}
+#forma{
+    margin-left: 400px;
+    text-align: left;
+}
+#list{
+    margin-top:250px;
+}
+#list a{
+    margin-left:-100px;
+    font-size:17px;
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-content: center;
+    color: black;
+}
